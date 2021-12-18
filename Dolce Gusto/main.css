@@ -1,0 +1,155 @@
+body {
+    background-image: url(img/tlo.jpg);
+    background-position: center 100px;
+    background-repeat: no-repeat;
+    font-family: 'Noto Sans', sans-serif; 
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(0.5turn, #04071f, #f39010, #04071f);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    background-color:#04071f98;
+    border-radius: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+h1  {
+    text-shadow: 5px 5px  #070604;
+    color: #f8f8f8f3;
+    font-size: 55px;
+    letter-spacing: 20px;
+    font-weight: 700;
+    
+}
+
+
+.title{
+    color: #dbdfe0;
+    font-size: 30px;
+    height: 30px;
+    font-weight: 400;
+    text-shadow: 3px 3px 5px rgb(241, 114, 10);
+    height: 40px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+
+.pizza {
+    color: azure;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #fd9d02d3;
+    padding: 10px;
+    margin-top: 20px;
+   
+}
+
+.sauces {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sauce {
+    background-color: #fd9d02d3;
+    color: white;
+    border-radius: 5px;
+    padding: 15px;
+    width: 250px;
+    margin: 10px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.drinks{
+    background-color:#fd9d02d3;
+    color: white;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.userName{
+    background-color: #04071f98;
+    color: whitesmoke;
+    border: 3px solid #fd9d02c2;
+}
+
+.email{
+    background-color: #04071f98;
+    color: whitesmoke;
+    border: 3px solid #fd9d02c2;
+}
+
+.number{
+    background-color: #04071f98;
+    color: whitesmoke;
+    border: 3px solid #fd9d02c2;
+}
+
+.address{
+    background-color: #04071f98;
+    color: whitesmoke;
+    border: 3px solid #fd9d02c2;
+}
+
+#message{
+    background-color: #04071f98;
+    color: whitesmoke;
+    border: 3px solid #fd9d02c2;
+}
+
+#price{
+    color: whitesmoke;
+}
+
+.content{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.footer {
+    font-size: 25px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    margin-right: 30px;
+    margin-left: 30px;
+ 
+}
